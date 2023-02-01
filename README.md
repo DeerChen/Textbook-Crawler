@@ -1,29 +1,28 @@
-# README #
+# Textbook Crawler
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Introduction
 
-### What is this repository for? ###
+自用，下载[人民教育出版社](https://jc.pep.com.cn)教材。
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+支持正版，请勿传播，谢谢。
 
-### How do I get set up? ###
+## Installation
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+```bash
+pip install json5 requests Pillow
+```
 
-### Contribution guidelines ###
+## Usage
 
-* Writing tests
-* Code review
-* Other guidelines
+```bash
+python main.py 信息技术选修二 1452001132201 136 # 书名 ID 总页数
+python main.py # 需自行先在`textbooks.jsonc`中添加目标书籍信息
+```
 
-### Who do I talk to? ###
+## Maintainers
 
-* Repo owner or admin
-* Other community or team contact
+[Senkita](https://github.com/Senkita)
+
+## License
+
+[MIT](LICENSE) &copy; [Senkita](https://github.com/Senkita)
