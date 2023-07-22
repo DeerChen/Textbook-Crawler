@@ -1,4 +1,4 @@
-# Textbook Crawler
+![Textbook-Crawler](https://socialify.git.ci/Senkita/Textbook-Crawler/image?font=Source%20Code%20Pro&forks=1&issues=1&name=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
 
 ## Introduction
 
@@ -21,7 +21,9 @@ python main.py # 需自行先在`textbooks.jsonc`中添加目标书籍信息
 
 ## Maintainers
 
-[Senkita](https://github.com/Senkita)
+<a href="https://github.com/Senkita/Textbook-Crawler/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Senkita/Textbook-Crawler" />
+</a>
 
 ## License
 

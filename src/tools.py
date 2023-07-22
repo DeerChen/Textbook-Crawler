@@ -35,7 +35,8 @@ def generate_pdf(book: str, files: list) -> None:
         img: Image.Image = Image.open('{}/{}.jpg'.format(book, pic))
         if img.mode == 'RGBA':
             img = img.convert('RGB')
-        pics.append(img)
+        pics.append(img.copy())
+        img.close()
 
     pdf.save(
         './{}.pdf'.format(book),
